@@ -32,3 +32,4 @@ schoolbags = bags.subcategories.create(name: "School Bag")
 
 book1 = books.subcategories.create(name: "Spritual")
 book2 = books.subcategories.create(name: "Comics")
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
